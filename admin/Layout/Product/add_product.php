@@ -1,6 +1,7 @@
 <?php?>
 
-<h2 class="pt-2 px-2">Thêm danh mục</h2>
+
+<h2 class="pt-2 px-2">Thêm sản phẩm</h2>
 
 <form action="">
     <div class="px-5 py-4">

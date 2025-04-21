@@ -10,9 +10,9 @@
 <div class="container-fluid pt-5">
     <div class="container px-3" style="background-color: white;height: 200px">
         <br>
-        <button type="button" class="btn btn-success d-flex justify-content-center" style="padding-right: 15px">
+        <a href="?page_layout=add_product" class="btn btn-success text-center <?php if(isset($_GET['page_layout']) && $_GET['page_layout'] == 'add_product'){echo 'active';}?>" style="padding-right: 15px;width: 178.6px">
             <span class="material-symbols-outlined">add</span>Thêm sản phẩm
-        </button>
+        </a>
 
         <table class="table table-bordered" style="margin-top: 16px">
             <thead class="table-secondary">

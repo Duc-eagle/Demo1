@@ -10,9 +10,9 @@
     <div class="container-fluid pt-5">
         <div class="container px-3" style="background-color: white;height: 200px">
             <br>
-            <button type="button" class="btn btn-success d-flex justify-content-center" style="padding-right: 15px">
+            <a href="?page_layout=add_categories" class="btn btn-success text-center <?php if(isset($_GET['page_layout']) && $_GET['page_layout'] == 'add_categories'){echo 'active';}?>" style="padding-right: 15px">
                 <span class="material-symbols-outlined">add</span>Thêm danh mục
-            </button>
+            </a>
 
             <table class="table table-bordered" style="margin-top: 16px">
                 <thead class="table-secondary">
@@ -38,3 +38,4 @@
             </ul>
         </div>
     </div>
+

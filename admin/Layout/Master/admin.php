@@ -120,6 +120,9 @@
                         case 'user': include_once('Layout/Users/user.php'); break;
                         case 'product': include_once('Layout/Product/product.php'); break;
                         case 'order': include_once('Layout/Order/order.php'); break;
+                        case 'add_categories': include_once ('Layout/Category/add_categories.php'); break;
+                        case 'add_product': include_once ('Layout/Product/add_product.php'); break;
+                        case 'add_user': include_once ('Layout/Users/add_user.php'); break;
                     }
                 } else {
                     include_once('Layout/Master/dashboard.php');
